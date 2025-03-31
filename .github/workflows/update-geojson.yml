@@ -27,3 +27,6 @@ jobs:
           git add dummy.geojson
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update GeoJSON data $(date)"
           git push
+
+permissions:
+  contents: write
