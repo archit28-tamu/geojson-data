@@ -1,1 +1,1 @@
-*.geojson filter=lfs diff=lfs merge=lfs -text
+zip_code_power_risk_poly.geojson filter=lfs diff=lfs merge=lfs -text
